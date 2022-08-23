@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name         Instagram - Layout For Laptop
+@version      20220820.10.03
+@namespace    userstyles.world/user/kinsley
+@description  I made this for my 14 inch laptop, better for browsing on small screens.
+@author       kinsley
+@license      No License
+==/UserStyle== */
+@-moz-document domain("www.instagram.com") {
+  ._aak6._aak7._aak8._aak9._aaka {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    ._a993._a995,
+    ._aam1._aam2._aam5 {
+      min-width: 900px;
+    }
+
+    ._aalz {
+      --feed-sidebar-width: 394px;
+    }
+
+    ._ab8w._ab94._ab99._ab9h._ab9m._ab9p {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    article > div > div:nth-child(1) {
+      flex: 100%;
+    }
+
+    article > div > div:nth-child(2) {
+      flex: 60%;
+    }
+
+    article > div > div:nth-child(3) {
+      flex: 40%;
+    }
+
+    article > div > div:nth-child(3) ._ae4g {
+      margin-top: 0 !important;
+    }
+  }
+}
