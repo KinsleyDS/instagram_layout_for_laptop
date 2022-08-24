@@ -1,17 +1,17 @@
 /* ==UserStyle==
 @name         Instagram - Layout For Laptop
-@version      20220820.10.03
+@version      20220824.04.01
 @namespace    userstyles.world/user/kinsley
 @description  I made this for my 14 inch laptop, better for browsing on small screens.
 @author       kinsley
 @license      No License
 ==/UserStyle== */
 @-moz-document domain("www.instagram.com") {
-  ._aak6._aak7._aak8._aak9._aaka {
+  ._aak6._aak9 {
     display: none;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 800px) {
     ._a993._a995,
     ._aam1._aam2._aam5 {
       min-width: 900px;
