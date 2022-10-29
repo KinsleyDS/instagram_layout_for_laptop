@@ -2,6 +2,7 @@
 
 Custom style for Instagram, free for everyone.
 
+![preview image](https://userstyles.world/preview/5035/1.webp)
 
 ![preview image](https://userstyles.world/preview/5035/0.webp)
 
