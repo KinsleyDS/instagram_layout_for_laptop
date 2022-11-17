@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Instagram - Layout For Laptop
-@version      20221117.17.40
+@version      20221117.07.54
 @namespace    userstyles.world/user/kinsley
 @description  I made this for my 14 inch laptop, better for browsing on small screens.
 @author       kinsley
@@ -103,6 +103,10 @@
 
     ._ab6k > div > div:nth-child(3) {
       flex: 40%;
+    }
+    
+    ._ac-g {
+      white-space: nowrap;
     }
   }
 }
