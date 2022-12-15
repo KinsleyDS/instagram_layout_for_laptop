@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Instagram - Layout For Laptop
-@version      20221117.07.54
+@version      20221215.18.39
 @namespace    userstyles.world/user/kinsley
 @description  I made this for my 14 inch laptop, better for browsing on small screens.
 @author       kinsley
@@ -79,6 +79,10 @@
 
   /* article */
   @media screen and (min-width: 800px) {
+    .x17snn68.x17snn68 {
+      width: 100%;
+    }
+    
     ._aam2 {
       min-width: 840px;
       max-width: 100%;
