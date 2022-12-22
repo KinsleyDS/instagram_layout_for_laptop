@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Instagram - Layout For Laptop
-@version      20221215.18.39
+@version      20221222.21.12
 @namespace    userstyles.world/user/kinsley
 @description  I made this for my 14 inch laptop, better for browsing on small screens.
 @author       kinsley
@@ -11,16 +11,20 @@
   :root {
     --comment-font-size: 18px;
     --system-14-font-size: 18px;
-    --system-14-line-height: 22px;
   }
   
-  ._aacl._aaco._aacu._aacx._aad7._aade {
+  ._aa_y._aa_z._aa_- > header, 
+  button {
+    --system-14-font-size: 14px
+  }
+  
+  article ._aacl._aaco._aacu._aacx._aad7._aade {
     font-size: var(--comment-font-size);
     line-height: 1.3;
     overflow-wrap: anywhere;
   }
 
-  ._aacl._aaco._aacw._aad6._aade,
+  article ._aacl._aaco._aacw._aad6._aade,
   h2 ._acat,
   a._acat,
   a._acat:visited {
@@ -60,7 +64,7 @@
     width: 100%;
   }
 
-  ._ab6- {
+  ._ab6-[aria-label='Instagram'] {
     width: min(103px, 100%);
   }
 
